@@ -1,4 +1,5 @@
 GENOME ASSEMBLY PROTOCOL
+
 Objective was to generate a chromosome-level genome assembly using a combination of 10x, pacbio, hic sequencing reads. 
 
 1.1 Run CANU on PacBio Raw Subreads to generate a de novo assembly
