@@ -2,8 +2,7 @@
 
 ##Run CANU on PacBio Raw Subreads 
 
-```canu -p spez.canu.1300g.ml3k.def -d spez.canu.1300g.ml3k.def genomeSize=1300m minReadLength=3000 corOutCoverage=300 useGrid=false -pacbio-raw /projects/areitze2_research/dovet_spez/XDOVE_20200513_S64018_PL100156795-1_B01.subreads.fastq.gz
-```
+canu -p spez.canu.1300g.ml3k.def -d spez.canu.1300g.ml3k.def genomeSize=1300m minReadLength=3000 corOutCoverage=300 useGrid=false -pacbio-raw /projects/areitze2_research/dovet_spez/XDOVE_20200513_S64018_PL100156795-1_B01.subreads.fastq.gz
 
 
 ##Run longranger to align 10x sequences to CANU Assembly 
