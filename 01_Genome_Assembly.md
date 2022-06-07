@@ -1,4 +1,4 @@
-GENOME ASSEMBLY PROTOCOL
+1. GENOME ASSEMBLY PROTOCOL
 
 Objective was to generate a chromosome-level genome assembly using a combination of 10x, pacbio, hic sequencing reads. 
 
