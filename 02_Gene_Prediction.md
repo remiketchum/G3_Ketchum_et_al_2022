@@ -12,7 +12,9 @@ RepeatMasker -engine ncbi -pa 23 -s -lib spez_repeat_db-families.fa  -gff -dir s
 
 2.2 Prep the RNAseq data - clean and trim
 
+```
 java -jar /apps/pkg/trimmomatic/0.38/trimmomatic-0.38.jar PE -threads 10 -phred33 ./2018JAN12HiSeq_Run_Sample_Ecm_UNCC_Reitzel_GAGTGG_L002_R1_001.fastq.gz ./2018JAN12HiSeq_Run_Sample_Ecm_UNCC_Reitzel_GAGTGG_L002_R2_001.fastq.gz spez.trim.r1.fastq spez.trim.unpr.r1.fastq spez.trim.r2.fastq spez.trim.unpr.r2.fastq ILLUMINACLIP:/apps/pkg/trimmomatic/0.38/adapters/TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+```
 
 2.3 Align RNA reads to genome 
 
