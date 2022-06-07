@@ -26,7 +26,7 @@ pilon -Xmx350G --genome spez.canu.1300g.ml3k.def.contigs.fasta --bam spez.contig
 minimap2 -t30 -ax map-pb ../spez.contigs.polished.r1.fasta XDOVE_20200513_S64018_PL100156795-1_B01.subreads.fastq.gz --secondary=no | samtools sort -m 280G -o spez.canu.pol1x.aligned.pb.bam -T tmp.ali
 ```
 
-1.5 generate histogram to determine cutoffs (this creates a bimodal histogram - one peak for haploid cov and one peak for diploid cov)
+1.5 Generate histogram to determine cutoffs (this creates a bimodal histogram - one peak for haploid cov and one peak for diploid cov)
 bimodal histogram--one peak for haploid level of coverage, one peak for diploid level of coverage. 
 
 ```
