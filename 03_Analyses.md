@@ -1,4 +1,5 @@
 3. PFAM ANALYSIS
+
 The goal was to generate PFAM profiles to compare gene family representation across five different species of sea urchins. 
 Downloaded: https://data.broadinstitute.org/Trinity/Trinotate_v3_RESOURCES/Trinotate_v3_RESOURCES/Pfam-A.hmm.gz
 
