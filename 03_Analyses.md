@@ -12,7 +12,6 @@ hmmpress Pfam-A.hmm
 3.2 Hmmscan searches a protein sequence against a protein profile hmm database (generated above)
 
 ```
-hmmscan is used to search sequences against collections of profiles.
 hmmscan --cpu 23 --domtblout TrinotatePFAM.out Pfam-A.hmm spez.final.protein.fa
 hmmscan --cpu 23 --domtblout TrinotatePFAM.Htub.out Pfam-A.hmm Htub.braker.pasa.transcripts_no_utr.protein.fa 
 hmmscan --cpu 23 --domtblout TrinotatePFAM.Lvar.out Pfam-A.hmm Lvar.braker.pasa.transcripts_no_utr.protein.fa
